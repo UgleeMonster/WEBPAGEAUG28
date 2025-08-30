@@ -11,28 +11,28 @@
 <div class="container mt-5">
     <div class="card shadow-lg">
         <div class="card-header bg-primary text-white">
-            <h4 class="mb-0">Student Registration</h4>
+            <h4 class="mb-0" style="font-size: 40px; text-align: center;">Payroll Calculator</h4>
         </div>
         <div class="card-body">
-            <form action="justpasteit2.php" method="POST">
+            <form action="Paycheck.php" method="POST">
                 <div class="mb-3">
-                    <label for="fullname" class="form-label">Employee Name</label>
-                    <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Enter your full name" required>
+                    <label for="fullname" class="form-label"><strong>Employee Name</strong></label>
+                    <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Enter your full name" required> <br>
                 </div>
                 <div class="mb-3">
-                    <label for="days" class="form-label">Total Days of Work</label>
-                    <input type="number" name="days" id="days" class="form-control" placeholder="Enter your total days of work" required>
+                    <label for="days" class="form-label"><strong>Total Days of Work</strong></label>
+                    <input type="number" name="days" id="days" class="form-control" placeholder="Enter your total days of work" required> <br>
                 </div>
                 <div class="mb-3">
-                    <label for="rate" class="form-label">Daily Rate</label>
-                    <textarea type= number name="rate" id="rate" class="form-control" placeholder="Enter your daily rate" required></textarea>
+                    <label for="rate" class="form-label"><strong>Daily Rate</strong></label>
+                    <textarea type= number name="rate" id="rate" class="form-control" placeholder="Enter your daily rate" required></textarea> <br>
                 </div>
                 <div class="mb-3">
-                    <label for="cashadvance" class="form-label">Cash Advance</label>
-                    <input type="number" name="cashadvance" id="cashadvance" class="form-control" required>
+                    <label for="cashadvance" class="form-label"><strong>Cash Advance</strong></label>
+                    <input type="number" name="cashadvance" id="cashadvance" class="form-control" required> <br>
                 </div>
-                <div class="text-end">
-                    <button type="submit" class="btn btn-success">Register</button>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success"><strong>Generate Payslip</strong></button>
                 </div>
             </form>
         </div>
