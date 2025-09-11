@@ -32,19 +32,19 @@
                     $total_deductions = $tax + $sss + $pag_ibig + $cashadvance;
                     $Net_pay = $grosspay - $total_deductions;                               
                     ?>
-            <p class="lead"></p>
-            <ul class="list-group"></ul>
-                <li class="list-group-item"><strong>Total Days Worked:</strong> <?= $totaldays; ?> </li> <br>
-                <li class="list-group-item"><strong>Daily Rate: ₱</strong> <?= $rate; ?> </li> <br>
-                <hr>
-                <li class="list-group-item"><strong>Gross Pay: ₱</strong> <?= $grosspay; ?> </li> <br>
-                <li class="list-group-item"><strong>Tax: ₱</strong> <?= $tax; ?> </li> <br>
-                <li class="list-group-item"><strong>SSS: ₱</strong> <?= $sss; ?> </li> <br>
-                <li class="list-group-item"><strong>Pag-IBIG: ₱</strong> <?= $pag_ibig; ?> </li> <br>
-                <li class="list-group-item"><strong>Cash Advance: ₱</strong> <?= $cashadvance; ?> </li> <br>
-                <hr>
-                <li class="list-group-item"><strong>Total Deductions: ₱</strong> <?= $total_deductions; ?> </li> <br>
-                <li class="list-group-item" style="color: green; font-size: 20px;"><strong> Net Pay: ₱</strong> <?= $Net_pay; ?> </li> <br>
+                    <p class="lead"></p>
+                    <ul class="list-group"></ul>
+                    <li class="list-group-item"><strong>Total Days Worked:</strong> <?= $totaldays; ?> </li> <br>
+                    <li class="list-group-item"><strong>Daily Rate: ₱</strong> <?= $rate; ?> </li> <br>
+                    <hr>
+                    <li class="list-group-item"><strong>Gross Pay: ₱</strong> <?= $grosspay; ?> </li> <br>
+                    <li class="list-group-item"><strong>Tax: ₱</strong> <?= $tax; ?> </li> <br>
+                    <li class="list-group-item"><strong>SSS: ₱</strong> <?= $sss; ?> </li> <br>
+                    <li class="list-group-item"><strong>Pag-IBIG: ₱</strong> <?= $pag_ibig; ?> </li> <br>
+                    <li class="list-group-item"><strong>Cash Advance: ₱</strong> <?= $cashadvance; ?> </li> <br>
+                    <hr>
+                    <li class="list-group-item"><strong>Total Deductions: ₱</strong> <?= $total_deductions; ?> </li> <br>
+                    <li class="list-group-item" style="color: green; font-size: 20px;"><strong> Net Pay: ₱</strong> <?= $Net_pay; ?> </li> <br>
             </ul>
 
             <div class="mt-4">
