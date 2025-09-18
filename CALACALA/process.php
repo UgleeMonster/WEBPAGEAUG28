@@ -56,10 +56,10 @@
         <p><strong>Tuition Fee:</strong> <?= $tuition_fee; ?></p>
         <?php
         if ($grade_discount > 0) {
-            echo "<p class='text-success'><strong>Grade Discount:</strong>".number_format($grade_discount);"</p>"
+            echo "<p class='text-success'><strong>Grade Discount:</strong>".number_format($grade_discount)."</p>";
         }
         if ($age_discount > 0) {
-            echo "<p class='text-success'><strong>Age Discount:</strong>".number_format($age_discount);"</p>"
+            echo "<p class='text-success'><strong>Age Discount:</strong>".number_format($age_discount)."</p>";
         }
         else {
             echo "<p class='text-danger'><strong>No Discounts Applied</strong></p>";
